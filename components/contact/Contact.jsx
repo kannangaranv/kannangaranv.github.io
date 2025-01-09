@@ -17,7 +17,7 @@ const Contact = () => {
 
   return (
     <section className="contact section" id="contact">
-        <h2 className="section__title">Get In Touch 📩</h2>
+        <h2 className="section__title">Get In Touch <span className='emoji'>📩</span></h2>
 
         <div className="contact__container container grid">
             <div className="contact__content">
@@ -61,7 +61,7 @@ const Contact = () => {
 
                     <div className="contact__form-div contact__form-area">
                         <label className="contact__form-tag">Message</label>
-                        <textarea name="message" cols="30" rows="10" className='contact__form-input' placeholder='Send a message to get started.'></textarea>
+                        <textarea name="message" cols="30" rows="10" className='contact__form-input' placeholder='Send a message'></textarea>
                     </div>
 
                     <button className="button button--flex">

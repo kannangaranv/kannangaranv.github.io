@@ -12,7 +12,7 @@ const Experience = () => {
 
     return (
         <div className="section experience section" id="experience">
-            <h2 className="section__title">Experience 💼</h2>
+            <h2 className="section__title">Experience <span className='emoji'>💼</span></h2>
             <span className="section__subtitle">What I work as</span>
 
             <div className="exp__container container grid">

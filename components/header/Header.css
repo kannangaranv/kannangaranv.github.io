@@ -34,7 +34,7 @@
     font-size: var(--small-font-size);
     color: #ffffff; /* White font color */
     font-weight: var(--font-medium);
-    transition: .3s;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .nav__icon,
@@ -45,6 +45,7 @@
 
 .active-link,
 .nav__link:hover {
+    transform: scale(1.2);
     color: rgb(230, 151, 4); /* Highlighted link color (gold) */
 }
 
@@ -88,6 +89,7 @@
     .nav__icon {
         font-size: 1.2rem;
         color: #ffffff; /* White icon color */
+        transition: transform 0.3s ease, color 0.3s ease;
     }
 
     .nav__close {
@@ -101,6 +103,7 @@
 
     .nav__close:hover {
         color: #cccccc; /* Light gray for hover */
+        transition: transform 0.3s ease, color 0.3s ease;
     }
 
     .nav__toggle {

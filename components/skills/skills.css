@@ -76,3 +76,39 @@
         font-size: var(--small-font-size);
     }
 }
+
+/* Animation for emoji */
+/* Animation for rotating emoji */
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg); /* Start position */
+    }
+    50% {
+      transform: rotate(180deg); /* Half rotation */
+    }
+    100% {
+      transform: rotate(360deg); /* Full rotation */
+    }
+  }
+  
+  .emoji.rotate {
+    display: inline-block;
+    animation: rotate 3s linear infinite; /* Apply the rotate animation */
+    font-size: inherit; /* Matches the font size of the title */
+  }
+  
+  
+/* Skills group container */
+.skills__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth scaling and shadow effect */
+  }
+  
+  /* Scale and add shadow on hover */
+  .skills__content:hover {
+    transform: scale(1.05); /* Scale up slightly */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  }
+  
