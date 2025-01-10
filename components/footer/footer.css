@@ -64,6 +64,9 @@
     font-size: 0.875rem; /* Smaller font size for copyright text */
 }
 
+
+
+
 @media screen and (max-width: 992px) {
     .footer__social-link {
         padding: 0.25rem;
