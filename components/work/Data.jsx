@@ -7,6 +7,7 @@ import Work6 from '../../src/assets/covid.jpg';
 import Work7 from '../../src/assets/volt.jpg';
 import Work8 from '../../src/assets/equilizer.jpg';
 import Work9 from '../../src/assets/time.jpg';
+import Work10 from '../../src/assets/E-commerce-app.png';
 
 export const projectsData = [
 	{
@@ -14,7 +15,7 @@ export const projectsData = [
 		image: Work1,
 		title: 'Enfluent',
 		category: 'Software',
-		sourceUrl: 'https://github.com/kannangaranv/EnFluent-Personalized-Language-Learning-through-Adaptive-Learning-Management-Systems',
+		sourceUrl: 'https://github.com/kannangaranv/Enfluent',
 		status: 'development',
 		description: 'The Enfluent project aims to revolutionize personalized language learning for IELTS students by integrating features such as an automated grading system of reading, writing, listening and speaking according to IELTS criteria. interactive avatars, engagement detection using IoT data.',
 		tools: ['Java Spring Boot', 'Python FastAPI', 'PostgreSQL', 'ReactJS','Git'],
@@ -77,7 +78,7 @@ export const projectsData = [
 		description:"The Digital Volt Amp Meter is designed to provide precise measurements of electrical parameters. It is a versatile tool suitable for various applications, including electronics testing, power supply monitoring, and more.",
 		tools: ["Altium Designer", "SolidWorks"],
 		sourceUrl: 'https://github.com/kannangaranv/Digital-Volt-Amp-meter/tree/main',
-		status: 'development',
+		status: 'completed',
 	},
 	{
 		id: 8,
@@ -99,6 +100,16 @@ export const projectsData = [
 		sourceUrl: 'https://github.com/kannangaranv/Smart-Time-Stamp-Recorder',
 		status: 'completed',
 	},
+	{
+		id: 10,
+		image: Work10,
+		title: 'E-Commerce-App',
+		category: 'Software',
+		description:"This e-commerce application is a full-stack web solution built using Java Spring Boot for the backend, React with Vite for the frontend, and H2 database for lightweight data storage.",
+		tools: ["Java Spring boot", "React", "H2 Database"],
+		sourceUrl: 'https://github.com/kannangaranv/ecom_web_application_using_java_spring_boot',
+		status: 'completed',
+	}
 ];
 
 export const projectsNav = [
